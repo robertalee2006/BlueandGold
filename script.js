@@ -1,5 +1,6 @@
 const grid = document.querySelector(".grid");
 const circleSize = 80; // or whatever size you base your calculation on
+const coin = document.querySelector("#coin");
 
 function createCircles() {
   // Clear existing circles
@@ -26,8 +27,8 @@ function createCircles() {
 
     circle.addEventListener("click", () => {
       circle.classList.add("click");
-      audio.currentTime = 0;
-      audio.play();
+      coin.currentTime = 0;
+      coin.play();
 
       setTimeout(() => {
         circle.classList.remove("click");
