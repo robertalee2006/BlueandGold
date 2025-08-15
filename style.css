@@ -10,10 +10,10 @@ body {
 .grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(95px, 95px));
-  grid-auto-rows: 95px;
+  grid-template-columns: repeat(auto-fill, minmax(95.5px, 95.5px));
+  grid-auto-rows: 99.5px;
   width: 99.5vw;
-  height: 95vh;
+  height: 99.5.5vh;
 }
 
 .circle {
